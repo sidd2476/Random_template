@@ -35,6 +35,10 @@ body {
     padding-left: 10%;
     
 }
+.products{
+  padding-left:3% ;
+
+}
 .products1{
     padding-left: 4%;
 }
@@ -56,13 +60,37 @@ hr{
 .line{
     color: red;
 }
-.fa{
-  color:black;
-  padding-right: 30px;
+  .fa{
+    color: black; 
+    background: radial-gradient(white 100%, transparent 100%);
 }
 
+.namess{
+  padding-left: 4%;
+}
+.awards{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.logo{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+
+}
+.pictures{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+.productImg{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
 @media screen and (max-width: 700px) {
-  .row, .navbar {   
+  .row {   
     flex-direction: column;
   }
 }
