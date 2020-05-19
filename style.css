@@ -1,0 +1,68 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(to bottom, #FFFFFE 0%, #FFF9B5 100%);;
+}
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30% !important;
+  padding-top: 80px;
+}
+
+.main {
+  flex: 70%;
+  padding: 0px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+}
+.img{
+    padding-left: 10%;
+    
+}
+.products1{
+    padding-left: 4%;
+}
+.names{
+    padding-left: 25%;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ec3237;
+}
+hr{
+    border-top: 1px solid red;
+}
+.segements{
+    text-align: center;
+}
+.line{
+    color: red;
+}
+.fa{
+  color:black;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
